@@ -71,6 +71,19 @@ main ul {
     text-align: center;
 }
 
+/* Style rules for form content */
+form {
+    width: auto;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.btn {
+    grid-column: 1 / span 2;
+}
+
 /* Style rules for footer content */
 /* footer, footer a */
 footer {
