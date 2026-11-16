@@ -15,95 +15,96 @@
 </head>
 
 <body>
-    <!--Elements go here (visible) <header>, <h1>, <nav>, <img> (logo), search bars-->
-<header>
-    <div class="tab-desk">
-        <a href="index.html">
-            <img src="images/baby-hawk.jpg" alt="rescued baby hawk">
-        </a>
-    </div>
+    <div id="wrapper">
+        <!--Elements go here (visible) <header>, <h1>, <nav>, <img> (logo), search bars-->
+        <header>
+            <div class="tab-desk">
+                <a href="index.html">
+                    <img src="images/baby-hawk.jpg" alt="rescued baby hawk">
+                </a>
+            </div>
 
-    <div class="mobile">
-        <h1>🐾 Wild Rescues</h1>
-        <h3>Rescue. Rehabilitate. Release.</h3>
-    </div>
-</header>
-        
-    <nav>
-        <ul><li><a href="index.html">Home</a></li> 
-            <li><a href="about.html">About Us</a></li> 
-            <li><a href="partnership.html">Partnership</a></li> 
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="faqs.html">FAQs</a></li> 
-            <li><a href="contact.html">Contact</a></li></ul>
-    </nav>
-        
-    <main>
-        <!--ad page content here-->
-        <div></div>
-        <div id="contact">
-            <h2>You can reach us at:</h2>
-            <p class="tel-link round">
-                <a href="tel:8145558989">(814) 555-8989</a></p>
-            <p>Email:<a href="mailto:contact@wildrescues.net" class="link">contact@wildrescues.net</a></p>
-            <p>Address:<a href="https://maps.app.goo.gl/tLBfaTGU4eEg1xL67"
-                target="_blank" class="link">8989 Rescue Drive, Ocala, FL 34471</a></p>
-        </div>
+            <div class="mobile">
+                <h1>🐾 Wild Rescues</h1>
+                <h3>Rescue. Rehabilitate. Release.</h3>
+            </div>
+        </header>
+            
+        <nav>
+            <ul><li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="partnership.html">Partnership</a></li> 
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faqs.html">FAQs</a></li> 
+                <li><a href="contact.html">Contact</a></li></ul>
+        </nav>
+            
+        <main>
+            <!--ad page content here-->
+            <div></div>
+            <div id="contact">
+                <h2>You can reach us at:</h2>
+                <p class="tel-link mobile round"><a href="tel:8145558989">(814) 555-8989</a></p>
+                <p class="tab-desk">(814) 555-8989</p>
+                <p>Email:<a href="mailto:contact@wildrescues.net" class="link">contact@wildrescues.net</a></p>
+                <p>Address:<a href="https://maps.app.goo.gl/tLBfaTGU4eEg1xL67"
+                    target="_blank" class="link">8989 Rescue Drive, Ocala, FL 34471</a></p>
+            </div>
 
-        <div id="form">
-            <h2>Complete the form below and we will contact you soon.</h2>
-            <!-- Form begins -->
-            <form class="form-grid">
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <label for="fName">First Name:</label>
-                    <input type="text" name="fName" id="fName"><br>
+            <div id="form">
+                <h2>Complete the form below and we will contact you soon.</h2>
+                <!-- Form begins -->
+                <form class="form-grid">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName"><br>
 
-                    <label for="lName">Last Name:</label>
-                    <input type="text" name="lName" id="lName"><br>
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName"><br>
 
-                    <label for="bName">Name of Business:</label>
-                    <input type="text" name="bName" id="bName"><br>
+                        <label for="bName">Name of Business:</label>
+                        <input type="text" name="bName" id="bName"><br>
 
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email"><br>
 
-                    <label for="phone">Phone:</label>
-                    <input type="tel" name="phone" id="phone"><br>
-                </fieldset>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone"><br>
+                    </fieldset>
 
-                <fieldset>
-                    <legend>Additional Information</legend>
+                    <fieldset>
+                        <legend>Additional Information</legend>
 
-                    <p>I would like more information about:</p>
+                        <p>I would like more information about:</p>
+                        
+                        <label for="vol"><input type="radio" name="info" id="vol" value="Volunteering">Volunteering</label><br>
+                        <label for="sponsor"><input type="radio" name="info" id="sponsor" value="Sponsorship Opportunities">Sponsorship Opportunities</label><br>
+                        <label for="wild"><input type="radio" name="info" id="wild" value="Wildlife">Wildlife</label><br>
+                        <label for="other"><input type="radio" name="info" id="other" value="Other">Other, please specify below.</label><br>
+                        <label for="questions">What questions do you have for us?</label><br>
+                        <textarea name="questions" id="questions" rows="5" cols="35"></textarea><br>
+                    </fieldset>
                     
-                    <label for="vol"><input type="radio" name="info" id="vol" value="Volunteering">Volunteering</label><br>
-                    <label for="sponsor"><input type="radio" name="info" id="sponsor" value="Sponsorship Opportunities">Sponsorship Opportunities</label><br>
-                    <label for="wild"><input type="radio" name="info" id="wild" value="Wildlife">Wildlife</label><br>
-                    <label for="other"><input type="radio" name="info" id="other" value="Other">Other, please specify below.</label><br>
-                    <label for="questions">What questions do you have for us?</label><br>
-                    <textarea name="questions" id="questions" rows="5" cols="35"></textarea><br>
-                </fieldset>
-                
-                <input type="submit" class="btn" id="submit">
+                    <input type="submit" class="btn" id="submit">
 
-            </form>
-        </div>
+                </form>
+            </div>
 
-        <div id="latest">
-            <h2>Our Latest Rescue: Baby Raccoons</h2>
-            <img src="images/baby-raccoons.jpg" alt="hands holding three baby raccoons" 
-            height="260" width="400">
-            <p>Meet our latest rescues, Fizz, Bandit, and Mohawk. These three little guys were 
-                found abandoned near a home.</p>
-        </div>
-    </main>
+            <div id="latest">
+                <h2>Our Latest Rescue: Baby Raccoons</h2>
+                <img src="images/baby-raccoons.jpg" alt="hands holding three baby raccoons" 
+                height="260" width="400">
+                <p>Meet our latest rescues, Fizz, Bandit, and Mohawk. These three little guys were 
+                    found abandoned near a home.</p>
+            </div>
+        </main>
 
-    <footer>
-        <p>&copy; Copyright 2026. All Rights Reserved</p>
-        <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
-    </footer>
-
+        <footer>
+            <p>&copy; Copyright 2026. All Rights Reserved</p>
+            <p><a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
+        </footer>
+    </div>
 </body>
 
 </html>
